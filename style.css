@@ -72,6 +72,11 @@ body main .card-white {
   border-radius: 20px;
   text-align: center;
   box-shadow: 0px 20px 20px rgba(7, 89, 100, 0.1);
+  transition: all 0.3s ease;
+}
+body main .card-white:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
 }
 @media screen and (max-width: 450px) {
   body main .card-white {
